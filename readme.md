@@ -1,47 +1,23 @@
-#YelpCamp
+# Campground Blog ( Share your camping experience with everyone )
 
-##Initial Setup
-* Add Landing Page
-* Add Campgrounds Page that lists all campgrounds
++ Demo: https://glacial-ridge-65072.herokuapp.com/
++ Developed using Node, Express js, Vanilla js, Mongoose,  RESTful Routing and more
 
-Each Campground has:
-   * Name
-   * Image
+User Story: 
+- User can signup with email and password.
+- User can add a new campground with image link description and added price feature
+- User can view all campgrounds uploded by all other users also.
+- Logged in User can comment on any campground listing. 
+- Edit or delete comments.
 
-#Layout and Basic Styling
-* Create our header and footer partials
-* Add in Bootstrap
+Landing Page.
+![1](https://user-images.githubusercontent.com/15637153/36703288-d96e067a-1b0f-11e8-9a91-d756a6d28003.JPG)
 
-#Creating New Campgrounds
-* Setup new campground POST route
-* Add in body-parser
-* Setup route to show form
-* Add basic unstyled form
+Campground Page.
+![2](https://user-images.githubusercontent.com/15637153/36703317-f3849560-1b0f-11e8-984b-121c543f79b9.JPG)
 
-#Style the campgrounds page
-* Add a better header/title
-* Make campgrounds display in a grid
+Individual Campground.
+![3](https://user-images.githubusercontent.com/15637153/36703342-19fa4780-1b10-11e8-94dd-2858d59973b0.JPG)
 
-#Style the Navbar and Form
-* Add a navbar to all templates
-* Style the new campground form
-
-#Add Mongoose
-* Install and configure Mongoose
-* Setup campground model
-* Use campground model inside of our routes
-
-#Show Page
-* Review the RESTful routes we've seen so far
-* Add description to our campground model
-* Show db.collection.drop()
-* Add a show route/template
-
-RESTFUL ROUTES
-
-name      url      verb    desc.
-===============================================
-INDEX   /dogs      GET   Display a list of all dog
-NEW     /dogs/new  GET   Displays form to make a new dog
-CREATE  /dogs      POST  Add new dog to DB
-SHOW    /dogs/:id  GET   Shows info about one dog
+Adding a new Campground.
+![4](https://user-images.githubusercontent.com/15637153/36703376-38e508e2-1b10-11e8-9f52-ec9a7f0979a5.JPG)
