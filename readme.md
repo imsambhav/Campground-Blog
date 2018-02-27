@@ -1,6 +1,6 @@
 # Campground Blog ( Share your camping experience with everyone )
 
-+ Demo: https://glacial-ridge-65072.herokuapp.com/
++ Demo: http://campgrounds-blog.herokuapp.com/
 + Developed using Node, Express js, Vanilla js, Mongoose,  RESTful Routing and more
 
 User Story: 
