@@ -1,14 +1,14 @@
 {
-  "name": "v1",
+  "name": "CB v1",
   "version": "1.0.0",
-  "description": "YelpCamp v1",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
   "author": "Kumar Sambhav",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "body-parser": "^1.18.2",
     "connect-flash": "^0.1.1",
